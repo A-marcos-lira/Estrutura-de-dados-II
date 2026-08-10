@@ -29,7 +29,7 @@ vetor[j+1] = aux;
 				//Essa linha coloca o valor salvo em aux de volta no vetor na posição exata dele.
 		printf("\nVetor Ordenado: ");
 	for(int i =0; i <qtd; i++){
-		printf(" [%i]",vetor[i]);
+		printf(" [%i] ",vetor[i]);
 	}
-	printf("Trocas [%i]", troca);
+	printf("Trocas => [%i]", troca);
 }
